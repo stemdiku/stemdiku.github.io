@@ -28,8 +28,7 @@ body {
     text-align: center;
 }
 
-#box {
-    background-color: #a52a2a;
+.box {
     left: 50%;
     margin-bottom: 0px;
     margin-left: 0%;
@@ -41,6 +40,14 @@ body {
     text-align: center;
     transform: translate(-50%);
     width: 100%;
+}
+
+.box.header {
+    background-color: #a52a2a;
+}
+
+.box.stem {
+        background-color: #39641c;
 }
 
 .timeline {
@@ -79,6 +86,7 @@ a.content:hover {
     transition: transform 0.3s ease;
 }
 
+
 .event.left .content {
     background-color: #ffffff;
     border-radius: 8px;
@@ -111,6 +119,7 @@ a.content:hover {
     width: 80%;
 }
 
+
 .event.back .content {
     background-color: #ffffff;
     border-radius: 8px;
@@ -130,6 +139,10 @@ a.content:hover {
 }
 
 .best .content {
+    box-shadow: 10px 10px 10px #a52a2a;
+}
+
+.stem .content {
     box-shadow: 10px 10px 10px #a52a2a;
 }
 
